@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "PORT: $PORT"
+sed "s/<%= ENV[\"PORT\"] %>/$PORT/g" nginx.conf.erb > /app/nginx.conf
+nginx -c /app/nginx.conf

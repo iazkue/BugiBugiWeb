@@ -11,6 +11,7 @@ http {
     listen <%= ENV["PORT"] %>;
     server_name _;
     root /app;
+    index index.html;
 
     location / {
       try_files $uri $uri.html $uri/ =404;
