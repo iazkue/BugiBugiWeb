@@ -11,7 +11,7 @@ http {
     sendfile on;
 
     server {
-        listen <%= ENV["PORT"] %>;
+        listen <%= ENV["PORT"] %> default_server;
         server_name _;
         root /app;
         index index.html;
