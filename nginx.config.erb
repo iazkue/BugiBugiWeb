@@ -1,12 +1,13 @@
 worker_processes 1;
-daemon off;
 
-events { worker_connections 1024; }
+events {
+  worker_connections 1024;
+}
 
 http {
   include mime.types;
   sendfile on;
-
+  
   server {
     listen <%= ENV["PORT"] %>;
     server_name _;
@@ -14,7 +15,7 @@ http {
     index index.html;
 
     location / {
-      try_files $uri $uri.html $uri/ =404;
+      try_files $uri $uri.html $uri/ /index.html;
     }
   }
 }
