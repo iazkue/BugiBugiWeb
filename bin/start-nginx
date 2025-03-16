@@ -1,3 +1,0 @@
-#!/bin/sh
-sed 's@<%= ENV["PORT"] %>@'"$PORT"'@' nginx.conf.erb > /app/nginx.conf
-nginx -c /app/nginx.conf
