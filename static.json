@@ -1,6 +1,10 @@
+$ heroku static:init
+? Enter the directory of your app: (public_html) public
+? Drop `.html` extensions from urls? No
+? Path to custom error page from root directory: 
 {
-  "root": ".",
-  "clean_urls": true,
+  "root": "public",
+  "clean_urls": false
   "routes": {
     "/**": "index.html"
   }
