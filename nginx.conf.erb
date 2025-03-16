@@ -7,8 +7,8 @@ events {
 
 http {
     include mime.types;
-    sendfile on;
     default_type application/octet-stream;
+    sendfile on;
 
     server {
         listen <%= ENV["PORT"] %>;
