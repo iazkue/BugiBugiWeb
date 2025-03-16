@@ -1,0 +1,1 @@
+web: bin/start-nginxweb: bin/start-nginx1
