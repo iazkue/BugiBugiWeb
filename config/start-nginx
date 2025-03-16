@@ -1,3 +1,0 @@
-#!/bin/sh
-erb nginx.conf.erb > /app/nginx.conf
-exec nginx -c /app/nginx.conf
