@@ -1115,7 +1115,7 @@ strong {
   backdrop-filter: blur(5px) saturate(180%);
   -webkit-backdrop-filter: blur(5px) saturate(180%);
   margin: 20px;
-  padding: 15px;
+  padding: 7px;
   transition: all 0.5s ease;
   transform: translateY(0); /* Siempre visible */
   position: absolute;
@@ -1129,7 +1129,7 @@ strong {
   color: var(--white-color);
   display: inline-block;
   min-width: 180px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .begirale-deskribapena p a {
@@ -1141,7 +1141,7 @@ strong {
 }
 
 .begirale-deskribapena hr {
-  margin: 1.5rem 0;
+  margin: 1rem 0;
 }
 
 .sponsorra{
