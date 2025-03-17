@@ -1153,3 +1153,7 @@ strong {
   margin: 0 auto;
   border: 0;
 }
+
+.swiper-wrapper p{
+  color: var(--white-color);
+}
