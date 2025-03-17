@@ -1111,11 +1111,11 @@ strong {
 
 .begirale-deskribapena {
   background-color: rgba(248, 203, 46, 0.75);
-  border-radius: var(--border-radius-medium);
+  border-radius: var(--border-radius-small);
   backdrop-filter: blur(5px) saturate(180%);
   -webkit-backdrop-filter: blur(5px) saturate(180%);
   margin: 20px;
-  padding: 35px;
+  padding: 15px;
   transition: all 0.5s ease;
   transform: translateY(0); /* Siempre visible */
   position: absolute;
