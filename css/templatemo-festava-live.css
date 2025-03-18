@@ -1159,5 +1159,6 @@ strong {
 }
 
 .marquee-text {
-  white-space: nowrap; /* Mantiene todo el contenido del <p> en una sola línea */
+  white-space: nowrap!important;
+  display: inline-block; 
 }
