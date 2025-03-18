@@ -6,6 +6,11 @@
     <priority>1.0</priority>
   </url>
 
+ <url>
+    <loc>https://www.bugibugi.eus/gaztelania.html</loc>
+    <priority>0.8</priority>
+  </url>
+
   <url>
     <loc>https://www.bugibugi.eus/izenaeman.html</loc>
     <priority>0.8</priority>
@@ -13,12 +18,12 @@
 
   <url>
     <loc>https://www.bugibugi.eus/legal/avisoLegal.pdf</loc>
-    <priority>0.5</priority>
+    <priority>0.1</priority>
   </url>
 
   <url>
     <loc>https://www.bugibugi.eus/legal/politicaPrivacidadDatos.pdf</loc>
-    <priority>0.5</priority>
+    <priority>0.1</priority>
   </url>
 
 </urlset>
