@@ -1157,3 +1157,7 @@ strong {
 .swiper-wrapper p{
   color: var(--white-color);
 }
+
+.marquee-text {
+  white-space: nowrap; /* Mantiene todo el contenido del <p> en una sola línea */
+}

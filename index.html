@@ -68,20 +68,22 @@ https://templatemo.com/tm-583-festava-live
 
         <main>
 
-            <header class="site-header">
-                <div class="container">
-                    <div class="row">
-                        
-                        <div class="col-lg-12 col-12 d-flex flex-wrap">
-                            <p class="d-flex me-4 mb-0">
-                                <i class="bi-person custom-icon me-2"></i>
-                                <strong class="text-dark">Informazio bilera, martxoak 28 gaztelekuan (18:30)</strong>
-                            </p>
-                        </div>
+          <header class="site-header">
+            <div class="container">
+                <div class="row">
+                    <!-- Ajusta las clases si deseas otros nombres -->
+                    <div class="col-lg-12 col-12 d-flex flex-wrap marquee-container">
+                        <p class="d-flex me-4 mb-0 marquee-text">
+                          <i class="bi-patch-exclamation-fill custom-icon me-2"></i>
+                          <strong class="text-dark">
+                            Informazio bilera, martxoak 28 Gaztelekuan (18:30). Izen emateak apirilaren 1ean.
+                          </strong>
+                        </p>
 
                     </div>
                 </div>
-            </header>
+            </div>
+          </header>
 
 
             <nav class="navbar navbar-expand-lg">
@@ -856,6 +858,36 @@ T e m p l a t e M o
             });
 
 
+            document.addEventListener('DOMContentLoaded', function() {
+              const container = document.querySelector('.marquee-container');
+              const textElement = document.querySelector('.marquee-text');
+
+              if (!container || !textElement) return;
+
+              const containerWidth = container.offsetWidth;
+              const textWidth = textElement.scrollWidth;
+
+              // Solo activamos el scroll si el texto es más ancho que el contenedor
+              if (textWidth > containerWidth) {
+                  // Posicionamos inicialmente el texto fuera de la parte derecha del contenedor
+                  textElement.style.position = 'relative';
+                  let currentX = containerWidth;
+
+                  function animateText() {
+                      // Mover el texto un pixel a la izquierda en cada frame
+                      currentX -= 0.5;
+                      // Si el texto sale completamente por la izquierda,
+                      // volvemos a colocarlo a la derecha para que aparezca de nuevo
+                      if (currentX < -textWidth) {
+                          currentX = containerWidth;
+                      }
+                      textElement.style.left = currentX + 'px';
+                      requestAnimationFrame(animateText);
+                  }
+
+                  requestAnimationFrame(animateText);
+              }
+          });
         </script>
 
     </body>
