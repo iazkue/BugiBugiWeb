@@ -938,7 +938,7 @@ strong {
   }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1110px) {
   h1 {
     font-size: 62px;
   }
@@ -964,7 +964,7 @@ strong {
   }
 
   .logoa{
-    width: 145px!important;
+    width: 143px!important;
   }
 
   .section-padding {
