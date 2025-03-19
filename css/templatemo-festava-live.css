@@ -1174,3 +1174,9 @@ strong {
 body {
   overflow-x: hidden!important; /* Fuerza a ocultar el scroll horizontal */
 }
+
+
+
+.custom-video {
+  filter: blur(3px);
+}
