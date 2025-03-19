@@ -964,7 +964,7 @@ strong {
   }
 
   .logoa{
-    width: 150px!important;
+    width: 145px!important;
   }
 
   .section-padding {
@@ -1178,4 +1178,18 @@ body {
 
 .custom-video {
   filter: blur(3px);
+}
+
+#atzeko.bideoa{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: black;     /* Color con el que tapas (puede ser negro, blanco, etc.) */
+  opacity: 0;            /* Empieza transparente */
+  pointer-events: none;  /* Para que no interfiera con clics al video */
+
+  transition: opacity 0.8s ease; /* Duración y forma del fade */
 }
