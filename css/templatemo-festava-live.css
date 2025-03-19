@@ -46,6 +46,8 @@ https://templatemo.com/tm-583-festava-live
 body {
   background-color: var(--primary-color);
   font-family: var(--body-font-family); 
+  margin: 0;
+  padding: 0;
   overflow-x: hidden!important;
 }
 
@@ -1060,8 +1062,7 @@ strong {
 
 /* Asegura que el slider no desborde su contenedor */
 .swiper-container {
-  width: auto;
-    height: auto;
+  width: 100%; /* Asegura que ocupe el ancho del contenedor */
   overflow: hidden;
   justify-content: flex-end;
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%);
@@ -1071,6 +1072,7 @@ strong {
 /* Ajuste de las diapositivas */
 .swiper-slide {
   text-align: center;
+  max-width: 100%; /* Evita que las diapositivas sean más anchas que el contenedor */
 }
 
 .swiper-wrapper {
@@ -1161,4 +1163,14 @@ strong {
 .marquee-text {
   white-space: nowrap!important;
   display: inline-block; 
+}
+
+.marquee-container {
+  overflow: hidden; /* Oculta el desbordamiento horizontal */
+  width: 100%; /* Asegura que no exceda el ancho del viewport */
+}
+
+
+body {
+  overflow-x: hidden!important; /* Fuerza a ocultar el scroll horizontal */
 }
