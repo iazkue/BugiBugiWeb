@@ -1191,3 +1191,10 @@ body {
 
   transition: opacity 0.8s ease; /* Duración y forma del fade */
 }
+
+
+.izenaeman{
+  position: relative;
+  overflow: hidden;
+  padding-top: 100px;
+}
