@@ -620,9 +620,9 @@ strong {
   transform: translateY(100%);
   position: absolute;
   bottom: 0;
-  right: 0;
-  left: 0;
+  left: 0; /* Ensures alignment to the left */
   opacity: 0;
+  text-align: left; /* Aligns text to the left */
 }
 
 .artists-hover p strong {
@@ -633,7 +633,11 @@ strong {
 }
 
 .artists-hover p a {
-  color: var(--secondary-color);
+  color: var(--white-color);
+}
+
+.artists-hover p {
+  color: var(--white-color);
 }
 
 .artists-hover p a:hover {
