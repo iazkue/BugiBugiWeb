@@ -133,6 +133,7 @@ https://templatemo.com/tm-583-festava-live
                     </div>
                 </div>
             </nav>
+<div id="menu-darken-overlay"></div>
             
 
             <section class="hero-section" id="section_1">
@@ -819,6 +820,16 @@ T e m p l a t e M o
 
                   requestAnimationFrame(animateText);
               }
+          });
+        </script>
+
+        <script>
+          window.addEventListener('scroll', function() {
+            const overlay = document.getElementById('menu-darken-overlay');
+            // Cambia 200 por la distancia de scroll máxima donde el overlay será totalmente visible
+            const maxScroll = 200;
+            let opacity = Math.min(window.scrollY / maxScroll, 1);
+            overlay.style.opacity = opacity;
           });
         </script>
 
