@@ -684,12 +684,33 @@ strong {
   SCHEDULE              
 -----------------------------------------*/
 .schedule-section {
-  background-image: url("../images/bg2.jpg");
-  background-color: #242424;
+  background-image: url("../images/bg2.webp");
+  /* Solo aplica el blur a la imagen de fondo usando un pseudo-elemento */
+  position: relative;
+    background-color: #242424;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
+.schedule-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image: inherit;
+  background-repeat: inherit;
+  background-position: inherit;
+  background-size: inherit;
+  filter: blur(6px);
+  pointer-events: none;
+}
+
+.schedule-section > * {
+  position: relative;
+  z-index: 1;
+}
+
 .table-responsive {
   filter: drop-shadow(2px 2px 4px #606060);
 }
