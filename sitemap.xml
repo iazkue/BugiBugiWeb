@@ -1,28 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://www.bugibugi.eus/</loc>
+    <loc>https://bugibugi.eus/</loc>
+    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+
+    <!-- Hreflang: euskera (principal) y castellano -->
+    <xhtml:link rel="alternate" hreflang="eu" href="https://bugibugi.eus/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bugibugi.eus/gaztelania.html"/>
+
+    <!-- Imágenes importantes (hero / destacadas) -->
+    <image:image>
+      <image:loc>https://bugibugi.eus/images/hero.webp</image:loc>
+      <image:title>Bugi Bugi - Udalekuak</image:title>
+      <image:caption>Participantes disfrutando de las actividades</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://bugibugi.eus/images/argazki-karrusela/1.webp</image:loc>
+      <image:caption>Actividad en el campamento</image:caption>
+    </image:image>
   </url>
 
- <url>
-    <loc>https://www.bugibugi.eus/gaztelania.html</loc>
+  <url>
+    <loc>https://bugibugi.eus/gaztelania.html</loc>
+    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+
+    <xhtml:link rel="alternate" hreflang="es" href="https://bugibugi.eus/gaztelania.html"/>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://bugibugi.eus/"/>
+
+    <image:image>
+      <image:loc>https://bugibugi.eus/images/hero.webp</image:loc>
+      <image:caption>Bugi Bugi - Versión en castellano</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://bugibugi.eus/izenaeman.html</loc>
+    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.bugibugi.eus/izenaeman.html</loc>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.bugibugi.eus/legal/avisoLegal.pdf</loc>
+    <loc>https://bugibugi.eus/legal/avisoLegal.pdf</loc>
+    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
 
   <url>
-    <loc>https://www.bugibugi.eus/legal/politicaPrivacidadDatos.pdf</loc>
+    <loc>https://bugibugi.eus/legal/politicaPrivacidadDatos.pdf</loc>
+    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
 
