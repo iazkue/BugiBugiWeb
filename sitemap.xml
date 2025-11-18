@@ -6,7 +6,7 @@
 
   <url>
     <loc>https://bugibugi.eus/</loc>
-    <lastmod>2025-11-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
 
@@ -28,7 +28,7 @@
 
   <url>
     <loc>https://bugibugi.eus/gaztelania.html</loc>
-    <lastmod>2025-11-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 
@@ -43,9 +43,14 @@
 
   <url>
     <loc>https://bugibugi.eus/izenaeman.html</loc>
-    <lastmod>2025-09-29T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    
+    <image:image>
+      <image:loc>https://bugibugi.eus/images/BugiBugi.svg</image:loc>
+      <image:caption>Logo Bugi Bugi</image:caption>
+    </image:image>
   </url>
 
   <url>
