@@ -6,8 +6,8 @@
 
   <url>
     <loc>https://bugibugi.eus/</loc>
-    <lastmod>2025-09-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2025-11-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
 
     <!-- Hreflang: euskera (principal) y castellano -->
@@ -28,7 +28,7 @@
 
   <url>
     <loc>https://bugibugi.eus/gaztelania.html</loc>
-    <lastmod>2025-09-29T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-18T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 
