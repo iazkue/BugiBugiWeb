@@ -232,7 +232,7 @@ strong {
   opacity: 0.35;
 }
 
-.section-overlay + .container {
+.section-overlay+.container {
   position: relative;
 }
 
@@ -334,7 +334,7 @@ strong {
   left: 0;
   object-fit: cover;
   width: 100%;
-  height: 100%; 
+  height: 100%;
 }
 
 /*---------------------------------------
@@ -481,14 +481,16 @@ strong {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-    filter: blur(5px); /* Añade el efecto blur */
+  filter: blur(5px);
+  /* Añade el efecto blur */
 
   /* Opcional: oscurecer el fondo */
   /* filter: brightness(0.7); */
 }
 
 .hero-section .custom-video {
-  display: none; /* Oculta la imagen si aún está en el HTML */
+  display: none;
+  /* Oculta la imagen si aún está en el HTML */
 }
 
 .hero-section small {
@@ -533,16 +535,16 @@ strong {
   top: 0;
   left: 0;
   width: 100%;
-  height: 120px; /* Ajusta la altura del difuminado */
+  height: 120px;
+  /* Ajusta la altura del difuminado */
   pointer-events: none;
   z-index: 1;
-  background: linear-gradient(
-    to bottom,
-    rgba(255,255,255,0.45) 0%,
-    rgba(255,255,255,0.15) 60%,
-    rgba(255,255,255,0) 100%
-  );
+  background: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.45) 0%,
+      rgba(255, 255, 255, 0.15) 60%,
+      rgba(255, 255, 255, 0) 100%);
 }
+
 .about-section {
   position: relative;
 }
@@ -652,9 +654,11 @@ strong {
   transform: translateY(100%);
   position: absolute;
   bottom: 0;
-  left: 0; /* Ensures alignment to the left */
+  left: 0;
+  /* Ensures alignment to the left */
   opacity: 0;
-  text-align: left; /* Aligns text to the left */
+  text-align: left;
+  /* Aligns text to the left */
 }
 
 .artists-hover p strong {
@@ -687,7 +691,7 @@ strong {
   background-image: url("../images/bg2.webp");
   /* Solo aplica el blur a la imagen de fondo usando un pseudo-elemento */
   position: relative;
-    background-color: #242424;
+  background-color: #242424;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -706,7 +710,7 @@ strong {
   pointer-events: none;
 }
 
-.schedule-section > * {
+.schedule-section>* {
   position: relative;
   z-index: 0;
 }
@@ -746,7 +750,7 @@ strong {
   border-bottom-color: transparent;
 }
 
-.schedule-table th + td {
+.schedule-table th+td {
   border-bottom: 0;
 }
 
@@ -890,7 +894,7 @@ strong {
 
 .site-footer-top {
   background-color: var(--secondary-color);
-  background-image: url("../images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg");
+  /* background-image: url("../images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg"); */
   background-repeat: no-repeat;
   margin-bottom: 70px;
   padding-top: 30px;
@@ -970,6 +974,7 @@ strong {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -1010,7 +1015,8 @@ strong {
   }
 
   .logoa {
-    width: 140px !important; /*mobileko bertsioa*/
+    width: 140px !important;
+    /*mobileko bertsioa*/
   }
 
   .section-padding {
@@ -1108,29 +1114,27 @@ strong {
 
 /* Asegura que el slider no desborde su contenedor */
 .swiper-container {
-  width: 100%; /* Asegura que ocupe el ancho del contenedor */
+  width: 100%;
+  /* Asegura que ocupe el ancho del contenedor */
   overflow: hidden;
   justify-content: flex-end;
-  -webkit-mask-image: linear-gradient(
-    to right,
-    transparent 0%,
-    black 15%,
-    black 85%,
-    transparent 100%
-  );
-  mask-image: linear-gradient(
-    to right,
-    transparent 0%,
-    black 15%,
-    black 85%,
-    transparent 100%
-  );
+  -webkit-mask-image: linear-gradient(to right,
+      transparent 0%,
+      black 15%,
+      black 85%,
+      transparent 100%);
+  mask-image: linear-gradient(to right,
+      transparent 0%,
+      black 15%,
+      black 85%,
+      transparent 100%);
 }
 
 /* Ajuste de las diapositivas */
 .swiper-slide {
   text-align: center;
-  max-width: 100%; /* Evita que las diapositivas sean más anchas que el contenedor */
+  max-width: 100%;
+  /* Evita que las diapositivas sean más anchas que el contenedor */
 }
 
 .swiper-wrapper {
@@ -1155,7 +1159,8 @@ strong {
 .artists-image {
   transition: transform 0.3s ease;
   height: auto;
-  object-fit: cover; /* Mantiene la imagen ajustada sin distorsión */
+  object-fit: cover;
+  /* Mantiene la imagen ajustada sin distorsión */
 }
 
 /* Efecto zoom al pasar el ratón */
@@ -1172,12 +1177,14 @@ strong {
   margin: 20px;
   padding: 6.5px;
   transition: all 0.5s ease;
-  transform: translateY(0); /* Siempre visible */
+  transform: translateY(0);
+  /* Siempre visible */
   position: absolute;
   bottom: 0;
   right: 0;
   left: 0;
-  opacity: 1; /* Siempre visible */
+  opacity: 1;
+  /* Siempre visible */
 }
 
 .begirale-deskribapena p strong {
@@ -1219,12 +1226,15 @@ strong {
 }
 
 .marquee-container {
-  overflow: hidden; /* Oculta el desbordamiento horizontal */
-  width: 100%; /* Asegura que no exceda el ancho del viewport */
+  overflow: hidden;
+  /* Oculta el desbordamiento horizontal */
+  width: 100%;
+  /* Asegura que no exceda el ancho del viewport */
 }
 
 body {
-  overflow-x: hidden !important; /* Fuerza a ocultar el scroll horizontal */
+  overflow-x: hidden !important;
+  /* Fuerza a ocultar el scroll horizontal */
 }
 
 /*atzeko bideua*/
@@ -1240,11 +1250,15 @@ body {
   width: 100%;
   height: 100%;
 
-  background: black; /* Color con el que tapas (puede ser negro, blanco, etc.) */
-  opacity: 0; /* Empieza transparente */
-  pointer-events: none; /* Para que no interfiera con clics al video */
+  background: black;
+  /* Color con el que tapas (puede ser negro, blanco, etc.) */
+  opacity: 0;
+  /* Empieza transparente */
+  pointer-events: none;
+  /* Para que no interfiera con clics al video */
 
-  transition: opacity 0.8s ease; /* Duración y forma del fade */
+  transition: opacity 0.8s ease;
+  /* Duración y forma del fade */
 }
 
 .izenaeman {
@@ -1262,9 +1276,10 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100px; /* Ajusta según la altura de tu navbar */
+  height: 100px;
+  /* Ajusta según la altura de tu navbar */
   pointer-events: none;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,9));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 9));
   opacity: 0;
   z-index: 1;
   transition: opacity 0.7s;
@@ -1308,7 +1323,7 @@ body {
   background: #eee;
 }
 
-.eskerronak p{
+.eskerronak p {
   max-width: 1200px;
   margin: 0 auto 0 auto;
   padding: 32px 24px 24px 24px;
@@ -1316,7 +1331,7 @@ body {
   font-family: 'Dancing Script', 'Segoe Script', 'Pacifico', cursive, sans-serif;
   font-size: 1.6rem;
   color: var(--body-font-family);
-  background: rgba(255,255,255,0.8);
+  background: rgba(255, 255, 255, 0.8);
   letter-spacing: 0.5px;
   line-height: 1.3;
 }
@@ -1329,11 +1344,19 @@ body {
 
 /* Animación carrusel: se desplaza horizontalmente */
 @keyframes carruselSlider {
-  0% {transform: translateX(0);}
-  100% {transform: translateX(-50%);}
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 /* Responsive */
 @media (max-width: 700px) {
-  .carrusel-img {width: 180px; height: 120px;}
+  .carrusel-img {
+    width: 180px;
+    height: 120px;
+  }
 }
