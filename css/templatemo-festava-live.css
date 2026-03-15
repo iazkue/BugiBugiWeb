@@ -262,7 +262,7 @@ strong {
 .nav-tabs .nav-link:hover {
   background: var(--white-color);
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .nav-tabs h5 {
