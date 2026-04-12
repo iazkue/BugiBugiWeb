@@ -1310,7 +1310,7 @@ body {
 .carrusel-wrapper {
   display: flex;
   width: fit-content;
-  animation: carruselSlider 44s linear infinite;
+  animation: carruselSlider 88s linear infinite;
 }
 
 .carrusel-img {
