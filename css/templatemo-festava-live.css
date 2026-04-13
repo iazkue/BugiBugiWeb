@@ -262,7 +262,7 @@ strong {
 .nav-tabs .nav-link:hover {
   background: var(--white-color);
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .nav-tabs h5 {
@@ -273,7 +273,7 @@ strong {
 .nav-tabs .nav-link.active h5,
 .nav-tabs .nav-link:focus h5,
 .nav-tabs .nav-link:hover h5 {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 /*---------------------------------------
@@ -1170,7 +1170,7 @@ strong {
 }
 
 .begirale-deskribapena {
-  background-color: rgba(248, 203, 46, 0.75);
+  background-color: var(--secondary-color);
   border-radius: var(--border-radius-small);
   backdrop-filter: blur(5px) saturate(180%);
   -webkit-backdrop-filter: blur(5px) saturate(180%);
@@ -1310,7 +1310,7 @@ body {
 .carrusel-wrapper {
   display: flex;
   width: fit-content;
-  animation: carruselSlider 44s linear infinite;
+  animation: carruselSlider 88s linear infinite;
 }
 
 .carrusel-img {
