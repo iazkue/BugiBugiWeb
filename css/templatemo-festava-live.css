@@ -1064,6 +1064,16 @@ strong {
   .ticket-form {
     padding: 30px;
   }
+
+  .site-header {
+    opacity: 0!important;
+    height: 0;
+    position: absolute;
+  }
+
+  .sticky-wrapper{
+    margin-top: 0!important;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1071,6 +1081,8 @@ strong {
     font-size: 14px;
     padding: 10px 20px;
   }
+
+  
 }
 
 @media screen and (max-width: 480px) {
